@@ -1,6 +1,7 @@
 const roteador = require('express').Router();
 const TabelaFornecedor = require('./TabelaFornecedor');
 const Fornecedor = require('./Fornecedor');
+const res = require('express/lib/response');
 
 roteador.get('/', async(requisicao, resposta) => {
     const resultados = await TabelaFornecedor.listar();
@@ -56,6 +57,25 @@ roteador.put('/:idFornecedor ', async(requisicao, resposta) => {
 
 
 
+});
+
+roteador.delete('/:idFornecedor', async(requisicao, resposta) => {
+    try {
+        const id= requisicao.params.idFornecedor;
+        const fornecedor = new Fornecedor({ id: id });
+        await fornecedor.carregar(); 
+        await fornecedor.remover();
+        resposta.end();
+        
+    } catch (erro) {
+        resposta.send(
+            JSON.stringify({
+                mensagem: erro.message
+            })
+        )
+
+        
+    }
 });
 
 

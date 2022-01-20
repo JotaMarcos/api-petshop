@@ -56,6 +56,10 @@ class Fornecedor {
 
     }
 
+    async remover(){
+        TabelaFornecedor.remover(this.id);
+    }
+
 
 
 }
