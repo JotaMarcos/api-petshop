@@ -32,4 +32,8 @@ Saída da criação:
 - Organizei a API em arquivos separados;
 - Nomeie rotas e caminhos da API;
 - Criei validação de informações.
+- Utilizado o método DELETE para remover dados;
+- Nomeado uma URL para remover dados;
+- Definido o Status de resposta para casos de sucesso diferentes;
+- Definido o Status de resposta para casos de erro diferentes.
 
