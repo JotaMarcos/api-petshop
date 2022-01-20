@@ -28,4 +28,8 @@ Saída da criação:
 - Trabalhamos com o formato de dados JSON em JavaScript;
 - Gerenciamento de conexão com banco de dados;
 - Representar tabelas do MySQL em código.
+- Criei os métodos de requisição HTTP;
+- Organizei a API em arquivos separados;
+- Nomeie rotas e caminhos da API;
+- Criei validação de informações.
 
