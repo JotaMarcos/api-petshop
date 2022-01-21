@@ -24,6 +24,10 @@ Depois de finalizada a instalação acesse o arquivo package.json e adicione ao 
 
 `"scripts": { "start": "nodemon api/index.js", "test": "echo \"Error: no test specified\" && exit 1" }` 
 
+Para instalar a biblioteca para trabalhar com o XML no NodeJS, basta digitar o seguinte comando no terminal:
+
+`$npm install jsontoxml`
+
 Agora no terminal para executar o projeto basta digitar:
 
 `npm start`
@@ -65,4 +69,3 @@ Saída da criação:
 - Usado middlewares na API petshop com express;
 - Tratado erros com JavaScript.
 - 
-
