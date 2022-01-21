@@ -68,4 +68,6 @@ Saída da criação:
 - Customizados as respostas de erros com JavaScript;
 - Usado middlewares na API petshop com express;
 - Tratado erros com JavaScript.
-- 
+- Realizado trabalho com JSON e XML em NodeJS;
+- Juntado listas em JavaScript;
+- Implementado novos formatos no serializador.
