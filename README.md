@@ -52,22 +52,51 @@ Saída da criação:
 ## Memorial descritivo do que foi realizado no Projeto.
 
 - Criado a API em NodeJS;
+
 - Gerenciado requisições e métodos da API;
+
 - Trabalho com o formato de dados JSON em JavaScript;
+
 - Gerenciamento de conexão com banco de dados;
+
 - Representado tabelas do MySQL em código.
+
 - Crie os métodos de requisição HTTP;
+
 - Organizado a API em arquivos separados;
+
 - Nomeado as rotas e caminhos da API;
+
 - Criado validação de informações.
+
 - Utilizado o método DELETE para remover dados;
+
 - Nomeado uma URL para remover dados;
+
 - Definido o Status de resposta para casos de sucesso diferentes;
+
 - Definido o Status de resposta para casos de erro diferentes.
+
 - Reconhecido erros comuns da API;
+
 - Customizados as respostas de erros com JavaScript;
+
 - Usado middlewares na API petshop com express;
+
 - Tratado erros com JavaScript.
+
 - Realizado trabalho com JSON e XML em NodeJS;
+
 - Juntado listas em JavaScript;
+
 - Implementado novos formatos no serializador.
+
+- Aplicado Stores de uma API RESTful;
+
+- Criado o Relacionamento de tabelas com Sequelize;
+
+- Definido as rotas e hierarquia de dados em uma API RESTful;
+
+- 
+
+  
