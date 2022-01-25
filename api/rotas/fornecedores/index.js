@@ -69,7 +69,7 @@ roteador.put('/:idFornecedor', async (requisicao, resposta, proximo) => {
     }
 });
 
-roteador.delete('/:idFornecedor', async(requisicao, resposta, proximo) => {
+roteador.delete('/:idFornecedor', async (requisicao, resposta, proximo) => {
     try {
         const id= requisicao.params.idFornecedor;
         const fornecedor = new Fornecedor({ id: id });
@@ -84,7 +84,21 @@ roteador.delete('/:idFornecedor', async(requisicao, resposta, proximo) => {
 });
 
 const roteadorProdutos = require('./produtos');
-roteador.use('/:idFornecedor/produtos', roteadorProdutos);
+
+const verificarFornecedor = async (requisicao, resposta, proximo) => {
+    try {
+        const id = requisicao.params.idFornecedor;
+        const fornecedor = new Fornecedor({ id: id });
+        await fornecedor.carregar();
+        requisicao.fornecedor = fornecedor;
+        proximo();
+    } catch (erro) {
+        proximo(erro);
+    }
+}
+
+
+roteador.use('/:idFornecedor/produtos', verificarFornecedor, roteadorProdutos);
 
 
 module.exports = roteador;
