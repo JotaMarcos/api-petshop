@@ -59,7 +59,7 @@ Saída da criação:
 
 - Gerenciamento de conexão com banco de dados;
 
-- Representado tabelas do MySQL em código.
+- Representado tabelas do MySQL em código;
 
 - Crie os métodos de requisição HTTP;
 
@@ -67,7 +67,7 @@ Saída da criação:
 
 - Nomeado as rotas e caminhos da API;
 
-- Criado validação de informações.
+- Criado validação de informações;
 
 - Utilizado o método DELETE para remover dados;
 
@@ -75,7 +75,7 @@ Saída da criação:
 
 - Definido o Status de resposta para casos de sucesso diferentes;
 
-- Definido o Status de resposta para casos de erro diferentes.
+- Definido o Status de resposta para casos de erro diferentes;
 
 - Reconhecido erros comuns da API;
 
@@ -83,20 +83,24 @@ Saída da criação:
 
 - Usado middlewares na API petshop com express;
 
-- Tratado erros com JavaScript.
+- Tratado erros com JavaScript;
 
 - Realizado trabalho com JSON e XML em NodeJS;
 
 - Juntado listas em JavaScript;
 
-- Implementado novos formatos no serializador.
+- Implementado novos formatos no serializador;
 
 - Aplicado Stores de uma API RESTful;
 
 - Criado o Relacionamento de tabelas com Sequelize;
 
-- Definido as rotas e hierarquia de dados em uma API RESTful;
+- Definir as rotas e hierarquia de dados em uma API RESTful;
 
-- 
+- Criado os controllers/ações de documentos em uma API RESTful;
+
+- Feito a validação dos tipos e conteúdos de dados em JS;
+
+- A reaproveitar código da aplicação com serializador;
 
   
