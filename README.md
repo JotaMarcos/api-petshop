@@ -52,55 +52,40 @@ Saída da criação:
 ## Memorial descritivo do que foi realizado no Projeto.
 
 - Criado a API em NodeJS;
-
 - Gerenciado requisições e métodos da API;
-
 - Trabalho com o formato de dados JSON em JavaScript;
-
 - Gerenciamento de conexão com banco de dados;
-
 - Representado tabelas do MySQL em código;
-
 - Crie os métodos de requisição HTTP;
-
 - Organizado a API em arquivos separados;
-
 - Nomeado as rotas e caminhos da API;
-
 - Criado validação de informações;
-
 - Utilizado o método DELETE para remover dados;
-
 - Nomeado uma URL para remover dados;
-
 - Definido o Status de resposta para casos de sucesso diferentes;
-
 - Definido o Status de resposta para casos de erro diferentes;
-
 - Reconhecido erros comuns da API;
-
 - Customizados as respostas de erros com JavaScript;
-
 - Usado middlewares na API petshop com express;
-
 - Tratado erros com JavaScript;
-
 - Realizado trabalho com JSON e XML em NodeJS;
-
 - Juntado listas em JavaScript;
-
 - Implementado novos formatos no serializador;
-
 - Aplicado Stores de uma API RESTful;
-
 - Criado o Relacionamento de tabelas com Sequelize;
-
 - Definir as rotas e hierarquia de dados em uma API RESTful;
-
 - Criado os controllers/ações de documentos em uma API RESTful;
-
 - Feito a validação dos tipos e conteúdos de dados em JS;
-
 - A reaproveitar código da aplicação com serializador;
-
-  
+- Definido os arquétipos e componentes de uma API RESTful;
+- Coleção de documentos, documento, stores e controllers;
+- Como nomear URLs seguindo os arquétipos de uma API RESTful;
+- Como trabalhar com requisições complexas;
+- Associando arquétipos de uma API RESTful com os métodos HTTP;
+- Cabeçalhos de requisição;
+- Método HTTP HEAD para conhecer os cabeçalhos de uma requisição;
+- Adicionado a segurança na API com CORS;
+- Criado Cabeçalhos de acesso de controle;
+- Utilizado o método HTTP OPTIONS para documentação e verificação de rotas;
+- Criado o versionamento da API;
+- Feito versionamento semântico de aplicações.

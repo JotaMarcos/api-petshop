@@ -29,9 +29,16 @@ app.use((requisicao, resposta, proximo) => {
     proximo();
 });
 
+app.use((requisicao, resposta, proximo) => {
+    resposta.set('Access-Control-Allow-Origin', '*');
+    proximo();
+});
+
 const roteador = require('./rotas/fornecedores');
-const { response } = require('express');
 app.use('/api/fornecedores', roteador);
+
+const roteadorV2 = require('./rotas/fornecedores/rotas.v2');
+app.use('/api/v2/fornecedores', roteadorV2);
 
 app.use((erro, requisicao, resposta, proximo) => {
 
@@ -61,6 +68,9 @@ app.use((erro, requisicao, resposta, proximo) => {
         })
     );
 });
+
+
+
 
 
 
